@@ -1,0 +1,30 @@
+;; The manifest file can contain multiple manifests. The
+;; order in which the manifests are organized in the 
+;; manifest file can control which manifest is used.
+;; Manifests should be organized in a most specific to
+;; least specific order, to assure that the best matching
+;; manifest will be used.
+
+
+
+
+;; ** REMOVE START **
+;; for each manifest section, '[manifest' is the key
+;;  you can change the '_V4DPY_642' to suit your need
+;; % Change ALL of the 'FIX_ME_V4DPY_642' values %
+;; ** REMOVE END **
+
+
+
+
+[manifest_V4DPY_642]
+OS_WIM_NAME = wtx10.0.19042.508INSPIRONENGWT4
+OS_WIM_SKU_NAME = Starter
+OS_WIM_SKU = 
+OS_BUILD_NUM = 10.0.19042.508
+OS_WINRE_WIM_NAME = wtx10.0.19042.508INSPIRONwinreENGWT4
+DESC = FIX_ME_V4DPY_642
+PARTS = V4DPY 7M1KY
+V4DPY = A18
+7M1KY = A01
+fiod_block = 2021-08
